@@ -5,7 +5,7 @@
 El modelo se entrena con datos de entrada y salida conocidos (etiquetados).  
 Ejemplo: Predecir si un correo es spam o no.  
 
-### 2. Aprendizaje No Supervisado  
+### 2. Aprendizaje No Supervisado
 El modelo trabaja con datos sin etiquetas, identificando patrones o agrupaciones.  
 Ejemplo: Agrupar clientes según sus hábitos de compra.  
 
