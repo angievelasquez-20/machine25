@@ -50,3 +50,16 @@ Valor mínimo: 1
 Valor máximo: 5
 Suma total: 15
 Producto total: 120
+
+## referencias ## 
+Referencias de consulta
+
+McKinney, W. (2017). Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython (2nd ed.). O’Reilly Media.
+
+Harris, C. R., Millman, K. J., van der Walt, S. J., Gommers, R., Virtanen, P., Cournapeau, D., ... & Oliphant, T. E. (2020). Array programming with NumPy. Nature, 585(7825), 357–362. https://doi.org/10.1038/s41586-020-2649-2
+
+Wes McKinney. (2022). pandas: Powerful Python data analysis toolkit. Documentation. https://pandas.pydata.org/docs/
+
+NumPy Developers. (2022). NumPy Reference Documentation. https://numpy.org/doc/
+
+VanderPlas, J. (2016). Python Data Science Handbook. O’Reilly Media. https://jakevdp.github.io/PythonDataScienceHandbook/
