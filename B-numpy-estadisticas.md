@@ -1,36 +1,38 @@
-## Valores básicos ##
+https://colab.research.google.com/drive/1gjLXfsqGpGuUmOEGazMRviYgH1FI_XDo#scrollTo=2e61d52b&line=36&uniqifier=1
 
-arr = np.array([5, 10, 15, 20, 25]) 
+# Usaremos el arreglo unidimensional creado anteriormente para los ejemplos
+arr_unidimensional = np.array([1, 2, 3, 4, 5])
+print("Arreglo para estadística:")
+print(arr_unidimensional)
 
-np.min(arr)     # mínimo
-np.max(arr)     # máximo
-np.sum(arr)     # suma de todos
-np.mean(arr)    # promedio
-np.median(arr)  # mediana
-np.std(arr)     # desviación estándar
-np.var(arr)     # varianza
+# Media (promedio)
+media = np.mean(arr_unidimensional)
+print(f"\nMedia: {media}")
 
-## Estadística en arreglos multidimensionales ##
+# Mediana
+mediana = np.median(arr_unidimensional)
+print(f"Mediana: {mediana}")
 
-mat = np.array([[1,2,3],[4,5,6],[7,8,9]])
+# Desviación estándar
+desviacion_estandar = np.std(arr_unidimensional)
+print(f"Desviación estándar: {desviacion_estandar}")
 
-np.mean(mat, axis=0)  # promedio por columna
-np.mean(mat, axis=1)  # promedio por fila
-np.sum(mat, axis=0)   # suma por columnas
-np.sum(mat, axis=1)   # suma por filas
+# Varianza
+varianza = np.var(arr_unidimensional)
+print(f"Varianza: {varianza}")
 
-## Ordenamiento y percentiles ##
- 
- arr = np.array([7, 1, 9, 3, 5])
+# Valor mínimo
+minimo = np.min(arr_unidimensional)
+print(f"Valor mínimo: {minimo}")
 
-np.sort(arr)         # orden ascendente
-np.percentile(arr, 50) # percentil 50 (mediana)
-np.percentile(arr, 90) # percentil 90
-   
-   ## correlaciones  y  covarianza ##
+# Valor máximo
+maximo = np.max(arr_unidimensional)
+print(f"Valor máximo: {maximo}")
 
-   x = np.array([1,2,3,4,5])
-y = np.array([5,4,3,2,1])
+# Suma de todos los elementos
+suma_total = np.sum(arr_unidimensional)
+print(f"Suma total: {suma_total}")
 
-np.corrcoef(x,y)    # correlación
-np.cov(x,y)        # covarianza
+# Producto de todos los elementos
+producto_total = np.prod(arr_unidimensional)
+print(f"Producto total: {producto_total}")
