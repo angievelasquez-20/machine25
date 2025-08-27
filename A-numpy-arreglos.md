@@ -1,4 +1,4 @@
-# 📌 Datasheet NumPy - Arreglos
+#  Datasheet NumPy - Arreglos
 
 Este documento resume los comandos principales de **NumPy** para trabajar con arreglos.
 

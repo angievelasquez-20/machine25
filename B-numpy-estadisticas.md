@@ -1,6 +1,6 @@
 ## Valores básicos ##
 
-arr = np.array([5, 10, 15, 20, 25])
+arr = np.array([5, 10, 15, 20, 25]) 
 
 np.min(arr)     # mínimo
 np.max(arr)     # máximo
@@ -28,9 +28,9 @@ np.percentile(arr, 50) # percentil 50 (mediana)
 np.percentile(arr, 90) # percentil 90
    
    ## correlaciones  y  covarianza ##
-   
+
    x = np.array([1,2,3,4,5])
 y = np.array([5,4,3,2,1])
 
-np.corrcoef(x,y)   # correlación
+np.corrcoef(x,y)    # correlación
 np.cov(x,y)        # covarianza
