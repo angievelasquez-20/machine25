@@ -36,3 +36,17 @@ print(f"Suma total: {suma_total}")
 # Producto de todos los elementos
 producto_total = np.prod(arr_unidimensional)
 print(f"Producto total: {producto_total}")
+
+## resuelve
+
+Arreglo para estadística:
+[1 2 3 4 5]
+
+Media: 3.0
+Mediana: 3.0
+Desviación estándar: 1.4142135623730951
+Varianza: 2.0
+Valor mínimo: 1
+Valor máximo: 5
+Suma total: 15
+Producto total: 120
